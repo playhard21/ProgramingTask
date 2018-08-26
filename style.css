@@ -27,16 +27,3 @@ body{
     background-position: center;
     font-family: 'Roboto Slab', serif;
 }
-
-.w3-card-4{
-    text-align: center;
-    padding-top:1%;
-}
-
-
-
-.w3-card-4:hover {
-    text-decoration : underline;   
-}
-
-
