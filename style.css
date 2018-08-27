@@ -39,7 +39,7 @@ body{
 
 .parallax {
     
-    background-image: url("/background.jpg");
+    background-image: url("background.jpg");
 
     min-height: 5px; 
 
