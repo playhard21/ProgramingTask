@@ -10,7 +10,7 @@ $(document).ready(function () {
             var arrCategoriesWithCompany = [];
             $.ajax({
                 dataType: 'json',
-                url: '/company_list.json',
+                url: 'company_list.json',
                 success: function (response) {
                     arrCompanies = response;
                     $.each(arrCompanies, function (key, val) {
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
             $.ajax({
                 dataType: 'json',
-                url: '/category_list.json',
+                url: 'category_list.json',
                 success: function (response) {
                     arrCategories = response;
                 }
@@ -58,7 +58,7 @@ $(document).ready(function () {
 
             $.ajax({
                 dataType: 'json',
-                url: '/category_per_company.json',
+                url: 'category_per_company.json',
                 success: function (response) {
                     arrCategoriesWithCompany = response;
                 }
